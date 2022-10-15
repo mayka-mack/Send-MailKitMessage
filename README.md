@@ -62,7 +62,7 @@ $Credential = [System.Management.Automation.PSCredential]::new("Username", (Conv
 #SMTP server ([string], required)
 $SMTPServer = "SMTPServer";
 
-#port ([int], required)
+#port ([int], optional)
 $Port = PortNumber;
 
 #sender ([MimeKit.MailboxAddress] http://www.mimekit.net/docs/html/T_MimeKit_MailboxAddress.htm, required)
